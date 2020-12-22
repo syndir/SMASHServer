@@ -1,0 +1,7 @@
+*.o
+build/
+bin/
+hw4.pdf
+hw4-grading-criteria.pdf
+*.out
+*.err
