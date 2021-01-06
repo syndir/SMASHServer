@@ -1,7 +1,6 @@
 /**
  * @file parse.c
  * @author Daniel Calabria
- * @id 103406017
  *
  * Parses a string into it's comprised parts.
  *
@@ -13,8 +12,6 @@
  * Each command will be then be decomposed into it's individual delimited
  * components:
  * A `component` is of the form: `./a`, `./b`, and `./c` `-t` `c`
- *
- * THIS FILE HAS BEEN REPURPOSED FROM HW3.
  **/
 
 #include <stdio.h>

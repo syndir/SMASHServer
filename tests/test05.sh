@@ -6,7 +6,7 @@ echo "************************************ TEST 5 ******************************
 
 echo
 echo "*** Starting server (maxjobs=2)..."
-rm -f .cse376hw4.socket
+rm -f .smash.socket
 ./bin/server -n 2 1>/dev/null 2>/dev/null &
 SERVERPID=$!
 sleep 1

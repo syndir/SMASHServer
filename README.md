@@ -8,7 +8,7 @@ The client and server shall communicate over a UNIX domain socket. The server sh
 ### Server Program
 The server program should conform to the following command line options:
 
-`-f socketfile`:  Specifies the socket file to use for the server, or `.cse376hw4.socket` if this option is not specified.
+`-f socketfile`:  Specifies the socket file to use for the server, or `.smash.socket` if this option is not specified.
 `-d`:  Enables debugging output.
 `-n maxjobs`:  Maximum number of jobs the server can concurrently run, or `INT_MAX` if this option is not specified.
 
@@ -76,7 +76,7 @@ Jobs shall be stored on the server in a job list of all jobs known to the server
 ### Client Program
 The client program should conform to the following command line options:
 
-`-f socketfile`: Use the specified filename as the UNIX domain socket, or `.cse376hw4.socket` if this option is not specified.
+`-f socketfile`: Use the specified filename as the UNIX domain socket, or `.smash.socket` if this option is not specified.
 `-d`: Enables debugging output.
 `-c`: Specify a command to be executed. Must be combined with the `-u` flag. If this flag is specified, the client shall *ONLY* log in, execute the command, disconnect, and terminate cleanly.
 `-u`: Specify the user to log in as. If this is not specified, then the client shall prompt the user for a username upon startup.

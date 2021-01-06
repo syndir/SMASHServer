@@ -1,7 +1,6 @@
 /**
  * @file parse.h
  * @author Daniel Calabria
- * @id 103406017
  *
  * Header file for parse.c
  *

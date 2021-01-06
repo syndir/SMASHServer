@@ -1,7 +1,6 @@
 /**
  * @file jobs.h
  * @author Daniel Calabria
- * @id 103406017
  *
  * Header file for jobs.c
  **/

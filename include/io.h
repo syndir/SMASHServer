@@ -1,7 +1,6 @@
 /**
  * @file io.h
  * @author Daniel Calabria
- * @id 103406017
  *
  * Header file for io.c
  **/

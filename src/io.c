@@ -1,11 +1,6 @@
 /**
  * @file io.c
  * @author Daniel Calabria
- * @id 103406017
- *
- * IO functions for smash.
- *
- * THIS FILE HAS BEEN REPURPOSED FROM HW3.
  **/
 
 #include <stdio.h>

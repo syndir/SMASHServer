@@ -1,7 +1,6 @@
 /**
  * @file debug.h
  * @author Daniel Calabria
- * @id 103406017
  *
  * Some helpful macros for printing debug and error information.
  **/

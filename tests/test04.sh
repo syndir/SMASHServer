@@ -6,7 +6,7 @@ echo "************************************ TEST 4 ******************************
 
 echo
 echo "*** Starting server (debug off)..."
-rm -f .cse376hw4.socket
+rm -f .smash.socket
 ./bin/server &
 SERVERPID=$!
 sleep 1

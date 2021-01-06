@@ -1,11 +1,8 @@
 /**
  * @file jobs.c
  * @author Daniel Calabria
- * @id 103406017
  *
  * Job handling for smash.
- *
- * THIS FILE HAS BEEN REPURPOSED FROM HW3.
  **/
 
 #define _GNU_SOURCE

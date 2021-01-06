@@ -1,7 +1,6 @@
 /**
  * @file common.h
  * @author Daniel Calabria
- * @id 103406017
  **/
 
 #ifndef COMMON_H
@@ -10,7 +9,7 @@
 #include <signal.h>
 
 /* filename of the socket */
-#define SOCKET_NAME ".cse376hw4.socket"
+#define SOCKET_NAME ".smash.socket"
 
 extern volatile sig_atomic_t debug_enabled;
 
